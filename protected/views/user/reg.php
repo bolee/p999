@@ -20,6 +20,7 @@ $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
 <?php echo $form->textFieldRow($user,'email',array('class'=>'span5','maxlength'=>32)); ?>
 
 <?php echo $form->passwordFieldRow($user,'password',array('class'=>'span5','maxlength'=>32)); ?>
+
 <?php echo $form->passwordFieldRow($user,'password2',array('class'=>'span5','maxlength'=>32)); ?>
 
 <div class="form-actions">

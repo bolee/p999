@@ -27,7 +27,7 @@
                 array('label'=>'登陆', 'url'=>Yii::app()->createUrl('/user/login'),'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'注册', 'url'=>Yii::app()->createUrl('/user/reg'),'visible'=>Yii::app()->user->isGuest),
                 '---',
-                array('label'=>'个人中心', 'url'=>'#','visible'=>!Yii::app()->user->isGuest, 'items'=>array(
+                array('label'=>Yii::app()->user->name, 'url'=>'#','visible'=>!Yii::app()->user->isGuest, 'items'=>array(
                     array('label'=>'登陆', 'url'=>Yii::app()->createUrl('/user/login')),
                     array('label'=>'注册', 'url'=>Yii::app()->createUrl('/user/reg')),
                 )),
