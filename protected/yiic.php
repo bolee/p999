@@ -1,7 +1,7 @@
 <?php
 
 // change the following paths if necessary
-$yiic=dirname(__FILE__).'/../../code/yii-1.1.12.b600af/yii-1.1.12.b600af/framework/yiic.php';
+$yiic='F:\soft\php\code\yii-1.1.10.r3566\yii-1.1.10.r3566\framework\yiic.php';
 $config=dirname(__FILE__).'/config/console.php';
 
 require_once($yiic);
