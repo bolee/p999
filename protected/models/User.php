@@ -75,6 +75,7 @@ class User extends CActiveRecord
 			'email' => 'Email',
 			'password' => '密码',
             'password2' => '重复密码',
+            'rememberMe'=>'下次自动登录'
 		);
 	}
 
@@ -131,5 +132,4 @@ class User extends CActiveRecord
         }
 
     }
-
 }

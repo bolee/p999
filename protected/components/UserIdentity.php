@@ -42,9 +42,11 @@ class UserIdentity extends CUserIdentity
         if(empty($user))
         {
             $this->errorCode=self::ERROR_UNKNOWN_IDENTITY;
-        } elseif($user->password !== $this->password) {
+        } elseif($user->password !== $user->encrypt($this->password)) {
             $this->errorCode=self::ERROR_UNKNOWN_IDENTITY;
         } else {
+            $this->id = $user->id;
+            $this->username = $user->display;
             $this->errorCode=self::ERROR_NONE;
         }
 		return !$this->errorCode;

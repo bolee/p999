@@ -55,6 +55,29 @@ class UserController extends Controller
 		));
 	}
 
+
+    /*
+     * 用户登录
+     */
+    public function actionLogin()
+    {
+        $user = new User();
+        $this->performAjaxValidation($user);
+        if(isset($_POST['User']))
+        {
+            //执行登陆操作
+            $user->attributes = $_POST['User'];
+            $_identity = new UserIdentity($user);
+            $_identity->authenticate();
+            if($_identity->errorCode===UserIdentity::ERROR_NONE)
+            {
+                $duration=$user->rememberMe ? 3600*24*30 : 0; // 30 days
+                Yii::app()->user->login($_identity,$duration);
+                $this->redirect(array('/site/index'));
+            }
+        }
+        $this->render('login',array('user'=>$user));
+    }
     /*
      * 用户注册
      */
