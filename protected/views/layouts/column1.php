@@ -28,8 +28,8 @@
                 array('label'=>'注册', 'url'=>Yii::app()->createUrl('/user/reg'),'visible'=>Yii::app()->user->isGuest),
                 '---',
                 array('label'=>Yii::app()->user->name, 'url'=>'#','visible'=>!Yii::app()->user->isGuest, 'items'=>array(
-                    array('label'=>'登陆', 'url'=>Yii::app()->createUrl('/user/login')),
-                    array('label'=>'注册', 'url'=>Yii::app()->createUrl('/user/reg')),
+                    array('label'=>'新问题','url'=>Yii::app()->createUrl('/question/create')),
+                    array('label'=>'退出', 'url'=>Yii::app()->createUrl('/user/logut')),
                 )),
             ),
         ),

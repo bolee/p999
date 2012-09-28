@@ -71,7 +71,7 @@ class UserController extends Controller
             $_identity->authenticate();
             if($_identity->errorCode===UserIdentity::ERROR_NONE)
             {
-                $duration=$user->rememberMe ? 3600*24*30 : 0; // 30 days
+                $duration=$_POST['User']['rememberMe'] ? 3600*24*30 : 0; // 30 days
                 Yii::app()->user->login($_identity,$duration);
                 $this->redirect(array('/site/index'));
             }
@@ -109,4 +109,10 @@ class UserController extends Controller
 			Yii::app()->end();
 		}
 	}
+
+    public function actionLogut()
+    {
+        Yii::app()->user->logout();
+        $this->redirect(array('/site/index'));
+    }
 }
