@@ -1,3 +1,138 @@
 .clear_top{
     margin-top: 40px;
 }
+/*全局*/
+.main{
+    width: 978px;
+    padding-top: 10px;
+}
+/*左边*/
+.left{
+    width: 726px;
+    float: left;
+    margin-right: 26px;
+}
+/*右边*/
+.right{
+    width: 222px;
+    float: left;
+    border: 1px solid #8a2be2;
+}
+/*首页列表*/
+.index_list{
+    height: 44px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.meta{
+    width: 100%;
+}
+.index_hr{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    clear: both;
+}
+.index_list h2{
+    font-size: 15px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    width: 650px;
+    line-height: 20px;
+}
+h1{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+    box-shadow: inset 0 -2px 0 #EEE;
+    border-bottom: 1px solid #BBB;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.index_list h2 a:link,a:active,a:visited {
+    color: #333;
+}
+.index_list h2 a:hover {
+    color: #007349;
+    text-decoration:none;
+}
+.index_list .status{
+    float:left;
+    width: 54px;
+    margin-right: 20px;
+    height: 44px;
+}
+.status_answer{
+    height: 22px;
+    width: 54px;
+    background: #2e8b57 url('../images/status.png') 35px 6px no-repeat;
+}
+.status_click{
+    height: 22px;
+    width: 54px;
+    background: #DDDDDD url('../images/status.png') 35px -70px no-repeat;
+}
+.index_row{
+    float: left;
+    margin-bottom: 10px;
+}
+/*首页排序*/
+.pagination{
+    margin-top: 10px;
+}
+
+/*内容页面*/
+.post-cell{
+    float: left;
+    width: 44px;
+    padding-left: 20px;
+    margin-right: 15px;
+    height: 100%;
+}
+.post-main{
+    float:left;
+    width: 640px;
+}
+.post-cell-useful{
+    border-color: #CCC;
+    color: #777;
+    padding: 6px 6px 5px;
+    border: 1px solid #DDD;
+    border-bottom: 1px solid #CCC;
+    background: #F3F3F3 url(../images/vote.png) no-repeat 7px 32px;
+    cursor: pointer;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.post-cell-useful span{
+    border-bottom: 1px solid #DDDDDD;
+    display: block;
+    width: 34px;
+    margin-left: -2px;
+    text-align: center;
+}
+
+.post-cell-nouse{
+    border-color: #CCC;
+    color: #777;
+    padding: 6px 6px 5px;
+    border: 1px solid #DDD;
+    border-bottom: 1px solid #CCC;
+    background: #F3F3F3 url(../images/vote.png) no-repeat -93px 11px;
+    cursor: pointer;
+    text-align: right;
+}
+.post-cell-nouse span{
+    border-bottom: 1px solid #DDDDDD;
+    display: block;
+    width: 34px;
+    margin-left: -2px;
+}
+.post-author span{
+    background-color: #E0EAF1;
+    float: right;
+}
+#Answer_content{
+    width: 726px;
+    height: 300px;
+}

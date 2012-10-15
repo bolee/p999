@@ -54,7 +54,7 @@ class Question extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('title, user_id, date', 'required'),
-			array('user_id, answer_num, click_num', 'numerical', 'integerOnly'=>true),
+			array('user_id, answer_num,useful,nouse, click_num', 'numerical', 'integerOnly'=>true),
 			array('title', 'length', 'max'=>256),
 			array('content', 'safe'),
 			// The following rule is used by search().
@@ -72,6 +72,7 @@ class Question extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
             'user'=>array(self::BELONGS_TO,'User','user_id'),
+            'answer'=>array(self::HAS_MANY,'Answer','question_id'),
 		);
 	}
 

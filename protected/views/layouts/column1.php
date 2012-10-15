@@ -4,6 +4,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
+    <script type="text/javascript">
+        //doamin_url = '<?php echo Yii::app()->request->hostInfo.Yii::app()->baseUrl; ?>/ueditor/'
+        window.UEDITOR_HOME_URL = '/p999/ueditor/'
+    </script>
+    <script type="text/javascript" src="<?php echo Yii::app()->baseUrl; ?>/ueditor/editor_config.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->baseUrl; ?>/ueditor/editor_all_min.js"></script>
+    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl; ?>/ueditor/themes/default/ueditor.css">
 </head>
 
 <body>
@@ -37,7 +44,11 @@
     ),
 )); ?>
     <div class="clear_top"></div>
-    <?php echo $content;?>
+    <!--  全局开始  -->
+    <div class="main">
+        <?php echo $content; ?>
+    </div>
+    <!--  全局结束  -->
 </div>
 </body>
 </html>

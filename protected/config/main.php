@@ -61,10 +61,10 @@ return array(
         */
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=p999',
+			'connectionString' => 'pgsql:host=192.168.1.20;port=5432;dbname=p999',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
+			'username' => 'postgres',
+			'password' => 'postgres',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(

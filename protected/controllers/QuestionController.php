@@ -50,8 +50,11 @@ class QuestionController extends Controller
 	 */
 	public function actionView($id)
 	{
+        $model =$this->loadModel($id);
+        $answer=new Answer();
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$model,
+            'answer'=>$answer,
 		));
 	}
 
