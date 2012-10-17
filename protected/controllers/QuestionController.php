@@ -52,6 +52,18 @@ class QuestionController extends Controller
 	{
         $model =$this->loadModel($id);
         $answer=new Answer();
+        if(isset($_POST['Answer']))
+        {
+            //添加评论
+            $answer->attributes = $_POST['Answer'];
+            $answer->user_id = Yii::app()->user->id;
+            $answer->date = date('Y-m-d H:i:s');
+            $answer->question_id = $model->id;
+            if($answer->save())
+            {
+                $this->redirect(array('/question/view','id'=>$model->id));
+            }
+        }
 		$this->render('view',array(
 			'model'=>$model,
             'answer'=>$answer,

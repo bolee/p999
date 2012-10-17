@@ -1795,3 +1795,205 @@ Stack trace:
 REQUEST_URI=/p999/index.php?r=question/view&id=4
 HTTP_REFERER=http://127.0.0.1/p999/index.php
 ---
+2012/10/16 11:58:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[08006] [7] could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "192.168.1.20" and accepting
+	TCP/IP connections on port 5432?' in D:\wamp\www\p999\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\wamp\www\p999\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\wamp\www\p999\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\wamp\www\p999\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\wamp\www\p999\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Question))
+#7 D:\wamp\www\p999\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('question')
+#8 D:\wamp\www\p999\protected\controllers\SiteController.php(40): CActiveDataProvider->__construct('question', Array)
+#9 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\wamp\www\p999\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('')
+#14 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#15 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\wamp\www\p999\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/p999/
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/10/16 12:35:32 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/16 12:35:34 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/16 12:35:34 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (69)
+in D:\wamp\www\p999\index.php (13)
+2012/10/16 14:49:08 [error] [exception.CException] exception 'CException' with message '别名 "bootstrap.widgets.TbActiveForm" 是无效的. 请确定它指向一个已存在的目录或文件.' in D:\wamp\www\p999\framework\YiiBase.php:343
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWidgetFactory.php(147): YiiBase::import('bootstrap.widge...', true)
+#1 D:\wamp\www\p999\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(QuestionController), 'bootstrap.widge...', Array)
+#2 D:\wamp\www\p999\framework\web\CBaseController.php(190): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\wamp\www\p999\protected\views\question\view.php(59): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 D:\wamp\www\p999\framework\web\CBaseController.php(127): require('D:\wamp\www\p99...')
+#5 D:\wamp\www\p999\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\wamp\www\p99...', Array, true)
+#6 D:\wamp\www\p999\framework\web\CController.php(870): CBaseController->renderFile('D:\wamp\www\p99...', Array, true)
+#7 D:\wamp\www\p999\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#8 D:\wamp\www\p999\protected\controllers\QuestionController.php(70): CController->render('view', Array)
+#9 [internal function]: QuestionController->actionView('4')
+#10 D:\wamp\www\p999\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#11 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(QuestionController), Object(ReflectionMethod), Array)
+#12 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('view')
+#21 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/view')
+#22 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\wamp\www\p999\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/p999/index.php?r=question/view&id=4
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/10/16 14:49:10 [error] [exception.CException] exception 'CException' with message '别名 "bootstrap.widgets.TbActiveForm" 是无效的. 请确定它指向一个已存在的目录或文件.' in D:\wamp\www\p999\framework\YiiBase.php:343
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWidgetFactory.php(147): YiiBase::import('bootstrap.widge...', true)
+#1 D:\wamp\www\p999\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(QuestionController), 'bootstrap.widge...', Array)
+#2 D:\wamp\www\p999\framework\web\CBaseController.php(190): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\wamp\www\p999\protected\views\question\view.php(59): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 D:\wamp\www\p999\framework\web\CBaseController.php(127): require('D:\wamp\www\p99...')
+#5 D:\wamp\www\p999\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\wamp\www\p99...', Array, true)
+#6 D:\wamp\www\p999\framework\web\CController.php(870): CBaseController->renderFile('D:\wamp\www\p99...', Array, true)
+#7 D:\wamp\www\p999\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#8 D:\wamp\www\p999\protected\controllers\QuestionController.php(70): CController->render('view', Array)
+#9 [internal function]: QuestionController->actionView('4')
+#10 D:\wamp\www\p999\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#11 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(QuestionController), Object(ReflectionMethod), Array)
+#12 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('view')
+#21 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/view')
+#22 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\wamp\www\p999\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/p999/index.php?r=question/view&id=4
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/10/16 14:49:26 [error] [exception.CException] exception 'CException' with message '别名 "bootstrap.widgets.TbActiveForm" 是无效的. 请确定它指向一个已存在的目录或文件.' in D:\wamp\www\p999\framework\YiiBase.php:343
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWidgetFactory.php(147): YiiBase::import('bootstrap.widge...', true)
+#1 D:\wamp\www\p999\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(QuestionController), 'bootstrap.widge...', Array)
+#2 D:\wamp\www\p999\framework\web\CBaseController.php(190): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\wamp\www\p999\protected\views\question\view.php(59): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 D:\wamp\www\p999\framework\web\CBaseController.php(127): require('D:\wamp\www\p99...')
+#5 D:\wamp\www\p999\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\wamp\www\p99...', Array, true)
+#6 D:\wamp\www\p999\framework\web\CController.php(870): CBaseController->renderFile('D:\wamp\www\p99...', Array, true)
+#7 D:\wamp\www\p999\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#8 D:\wamp\www\p999\protected\controllers\QuestionController.php(70): CController->render('view', Array)
+#9 [internal function]: QuestionController->actionView('4')
+#10 D:\wamp\www\p999\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#11 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(QuestionController), Object(ReflectionMethod), Array)
+#12 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('view')
+#21 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/view')
+#22 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\wamp\www\p999\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/p999/index.php?r=question/view&id=4
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/10/17 11:40:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[08006] [7] could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "192.168.1.20" and accepting
+	TCP/IP connections on port 5432?' in D:\wamp\www\p999\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\wamp\www\p999\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\wamp\www\p999\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\wamp\www\p999\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\wamp\www\p999\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Question))
+#7 D:\wamp\www\p999\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('question')
+#8 D:\wamp\www\p999\protected\controllers\SiteController.php(40): CActiveDataProvider->__construct('question', Array)
+#9 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\wamp\www\p999\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('')
+#14 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#15 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\wamp\www\p999\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/p999/
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/10/17 11:41:36 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:38 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:40 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:40 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:41 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (69)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:49 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:50 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:50 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (69)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:55 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:55 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (69)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:56 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:56 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (69)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:57 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (108)
+in D:\wamp\www\p999\protected\controllers\UserController.php (65)
+in D:\wamp\www\p999\index.php (13)
+2012/10/17 11:41:57 [warning] [application] Failed to set unsafe attribute "rememberMe" of "User".
+in D:\wamp\www\p999\protected\controllers\UserController.php (69)
+in D:\wamp\www\p999\index.php (13)
