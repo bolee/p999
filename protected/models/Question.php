@@ -11,6 +11,8 @@
  * @property integer $answer_num
  * @property integer $click_num
  * @property string $content
+ * @property integer $userful
+ * @property integer $nouse
  */
 class Question extends CActiveRecord
 {
@@ -32,19 +34,6 @@ class Question extends CActiveRecord
 		return 'question';
 	}
 
-
-    /*
-     * 验证之前增加数据
-     */
-    public function beforeValidate()
-    {
-        if($this->isNewRecord)
-        {
-            $this->user_id = Yii::app()->user->id;
-            $this->date = new CDbExpression('NOW()');
-        }
-        return parent::beforeValidate();
-    }
 	/**
 	 * @return array validation rules for model attributes.
 	 */
@@ -53,15 +42,16 @@ class Question extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, user_id, date', 'required'),
-			array('user_id, answer_num,useful,nouse, click_num', 'numerical', 'integerOnly'=>true),
+			array('title, user_id', 'required'),
+			array('user_id, answer_num, click_num, useful, nouse', 'numerical', 'integerOnly'=>true),
 			array('title', 'length', 'max'=>256),
 			array('content', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, title, user_id, date, answer_num, click_num, content', 'safe', 'on'=>'search'),
+			array('id, title, user_id, date, answer_num, click_num, content, userful, nouse', 'safe', 'on'=>'search'),
 		);
 	}
+
 
 	/**
 	 * @return array relational rules.
@@ -70,10 +60,12 @@ class Question extends CActiveRecord
 	{
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
-		return array(
+        return array(
             'user'=>array(self::BELONGS_TO,'User','user_id'),
             'answer'=>array(self::HAS_MANY,'Answer','question_id'),
-		);
+            'supply'=>array(self::HAS_MANY,'Supply','type_id','on'=>'supply.type="q"','alias'=>'supply'),
+            'rel'=>array(self::HAS_ONE,'TagRelation','question_id')
+        );
 	}
 
 	/**
@@ -89,6 +81,8 @@ class Question extends CActiveRecord
 			'answer_num' => 'Answer Num',
 			'click_num' => 'Click Num',
 			'content' => 'Content',
+			'userful' => 'Userful',
+			'nouse' => 'Nouse',
 		);
 	}
 
@@ -110,6 +104,8 @@ class Question extends CActiveRecord
 		$criteria->compare('answer_num',$this->answer_num);
 		$criteria->compare('click_num',$this->click_num);
 		$criteria->compare('content',$this->content,true);
+		$criteria->compare('userful',$this->userful);
+		$criteria->compare('nouse',$this->nouse);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

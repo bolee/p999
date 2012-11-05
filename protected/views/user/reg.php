@@ -1,5 +1,5 @@
 <?php
-$this->pageTitle = '用户注册';
+$this->pageTitle = 'Register';
 $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
     'id'=>'user-form',
     'enableAjaxValidation'=>true,
@@ -11,7 +11,7 @@ $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
 ));
 ?>
 
-<p class="help-block">用户注册.</p>
+<p class="help-block">Register.</p>
 
 <?php echo $form->errorSummary($user); ?>
 
@@ -27,7 +27,7 @@ $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
     <?php $this->widget('bootstrap.widgets.TbButton', array(
     'buttonType'=>'submit',
     'type'=>'primary',
-    'label'=>'注册',
+    'label'=>'Register',
 )); ?>
 </div>
 

@@ -9,7 +9,7 @@
     <script>
         var editor;
         KindEditor.ready(function(K) {
-            editor = K.create('#editor');
+            editor = K.create('#editor')
         });
     </script>
 </head>
@@ -25,23 +25,23 @@
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
-                array('label'=>'首页', 'url'=>'#', 'active'=>true),
+                array('label'=>'home', 'url'=>Yii::app()->homeUrl, 'active'=>true),
             ),
         ),
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
-                array('label'=>'待解决', 'url'=>'#'),
-                array('label'=>'登陆', 'url'=>Yii::app()->createUrl('/user/login'),'visible'=>Yii::app()->user->isGuest),
-                array('label'=>'注册', 'url'=>Yii::app()->createUrl('/user/reg'),'visible'=>Yii::app()->user->isGuest),
+                array('label'=>'To be resolved', 'url'=>'#'),
+                array('label'=>'Login', 'url'=>Yii::app()->createUrl('/user/login'),'visible'=>Yii::app()->user->isGuest),
+                array('label'=>'Register', 'url'=>Yii::app()->createUrl('/user/reg'),'visible'=>Yii::app()->user->isGuest),
                 '---',
                 array('label'=>Yii::app()->user->name, 'url'=>'#','visible'=>!Yii::app()->user->isGuest, 'items'=>array(
-                    array('label'=>'新问题','url'=>Yii::app()->createUrl('/question/create')),
-                    array('label'=>'退出', 'url'=>Yii::app()->createUrl('/user/logut')),
+                    array('label'=>'New Question','url'=>Yii::app()->createUrl('/question/create')),
+                    array('label'=>'Logout', 'url'=>Yii::app()->createUrl('/user/logut')),
                 )),
             ),
         ),
-        '<form class="navbar-search pull-left" action=""><input type="text" class="search-query span4" placeholder="搜索问题"></form>',
+        '<form class="navbar-search pull-left" action=""><input type="text" class="search-query span4" placeholder="Search"></form>',
     ),
 )); ?>
     <div class="clear_top"></div>
@@ -51,8 +51,20 @@
     </div>
     <!--  全局结束  -->
 </div>
+<!--补充start-->
+    <div class="post-supply-zindex"></div>
+    <div class="post-supply">
+        <div class="form">
+            <form action="<?php echo Yii::app()->createUrl('/question/supply'); ?>" method="post">
+                <textarea name="supply"></textarea>
+                <input type="submit" value="Add Supply">
+            </form>
+        </div>
+    </div>
+<!--补充end-->
 </body>
 </html>
+<script type="text/javascript" src="./js/d.js"></script>
 <script type="text/javascript" src="./editor/sy/scripts/shCore.js"></script>
 <script type="text/javascript" src="./editor/sy/scripts/shAutoloader.js"></script>
 <link type="text/css" rel="stylesheet" href="./editor/sy/styles/shCoreDefault.css"/>
@@ -95,5 +107,6 @@
             'vb vbnet               @shBrushVb.js',
             'xml xhtml xslt html    @shBrushXml.js'
     ));
+    SyntaxHighlighter.defaults['auto-links'] = false;
     SyntaxHighlighter.all();
 </script>

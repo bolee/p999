@@ -8,15 +8,15 @@
         <h2><a href="<?php echo Yii::app()->createUrl('/question/view',array('id'=>$data->id)) ?>"><?php echo $data->title; ?></a></h2>
         <div class="meta">
             <?php
-            if(!empty($data->tags))
-            {
-                foreach(explode(',',$data->tags) as $value)
+                if(!empty($data->tags))
                 {
-                    ?>
-                    <a class="label" href="<?php echo Yii::app()->createUrl('/question/tag',array('tag'=>$value)) ?>"><?php echo $value ?></a>
-                    <?php
+                    foreach(explode(',',$data->tags) as $value)
+                    {
+                        ?>
+                        <a class="label" href="<?php echo Yii::app()->createUrl('/question/tag',array('tag'=>$value)) ?>"><?php echo $value ?></a>
+                        <?php
+                    }
                 }
-            }
             ?>
             <span><?php echo $data->date; ?></span>
         </div>

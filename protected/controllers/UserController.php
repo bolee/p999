@@ -61,22 +61,25 @@ class UserController extends Controller
      */
     public function actionLogin()
     {
-        $user = new User();
+        $user = new LoginForm();
         $this->performAjaxValidation($user);
-        if(isset($_POST['User']))
+        $error = null;
+        if(isset($_POST['LoginForm']))
         {
             //执行登陆操作
-            $user->attributes = $_POST['User'];
+            $user->attributes = $_POST['LoginForm'];
             $_identity = new UserIdentity($user);
             $_identity->authenticate();
             if($_identity->errorCode===UserIdentity::ERROR_NONE)
             {
-                $duration=$_POST['User']['rememberMe'] ? 3600*24*30 : 0; // 30 days
+                $duration=$_POST['LoginForm']['rememberMe'] ? 3600*24*30 : 0; // 30 days
                 Yii::app()->user->login($_identity,$duration);
                 $this->redirect(array('/site/index'));
+            } else {
+                $error = '电子邮件或密码错误';
             }
         }
-        $this->render('login',array('user'=>$user));
+        $this->render('login',array('user'=>$user,'error'=>$error));
     }
     /*
      * 用户注册

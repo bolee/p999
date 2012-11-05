@@ -14,36 +14,89 @@ $this->pageTitle = $model->title .' - '. Yii::app()->name;
         <div class="post-cell">
             <div class="post-cell-useful">
                 <span><?php echo $model->useful; ?></span>
-                赞
+                praise
             </div>
             <div class="post-cell-nouse" title="<?php echo $model->nouse; ?>">
-                踩
+                Step
+            </div>
+            <div class="post-cell-supply" title="Supply" id="question-<?php echo $model->id; ?>">
+                Supply
             </div>
         </div>
         <div class="post-main">
-            <?php echo $model->content;?>
             <div class="post-author">
-                <span><?php echo $model->user->display; ?> 发表于 <?php echo $model->date; ?></span>
+                <span><a href="<?php echo Yii::app()->createUrl('/user/view',array('display'=>$model->user->display)) ?>"> <?php echo $model->user->display; ?></a> publish <?php echo $model->date; ?></span>
+            </div>
+            <div class="well">
+                <?php echo $model->content;?>
+            </div>
+            <ul class="post-supply-ul">
+                <?php
+                foreach($model->supply as $svalue)
+                {
+                    ?>
+                    <li>
+                        &nbsp;
+                        <?php  echo $svalue->content ?>
+                        &nbsp;  <a href="<?php echo Yii::app()->createUrl('/user/view',array('display'=>$svalue->user->display)) ?>"><?php echo $svalue->user->display ?></a>
+                        <?php echo $svalue->date ?>
+                    </li>
+                    <?php
+                }
+                ?>
+            </ul>
+            <div class="tag">
+                <?php
+                    if(!empty($model->tags))
+                    {
+                        foreach(explode(',',$model->tags) as $value)
+                        {
+                            ?>
+                            <a class="label" href="<?php echo Yii::app()->createUrl('/question/tag',array('tag'=>$value)) ?>"><?php echo $value ?></a>
+                            <?php
+                        }
+                    }
+                ?>
             </div>
         </div>
     </div>
-    <hr class="post-hr"/>
     <div class="post-comment span10">
-        <?php foreach($model->answer as $value) { ?>
+        <?php foreach($answerData as $value) { ?>
             <div class="post-cell">
                 <div class="post-cell-useful">
                     <span><?php echo $model->useful; ?></span>
-                    赞
+                    Praise
                 </div>
                 <div class="post-cell-nouse" title="<?php echo $model->nouse; ?>">
-                    踩
+                    Step
+                </div>
+                <div class="post-cell-supply" title="Supply" id="comment-<?php echo $value->id; ?>">
+                    Supply
                 </div>
             </div>
             <div class="post-main">
-                <?php echo $value->content;?>
                 <div class="post-author">
-                    <span><?php echo $model->user->display; ?> 发表于 <?php echo $model->date; ?></span>
+                    <span><a href="<?php echo Yii::app()->createUrl('/user/view',array('display'=>$value->user->display)) ?>"> <?php echo $value->user->display; ?></a> publish <?php echo $value->date; ?></span>
                 </div>
+                <div class="well">
+                    <?php
+                        echo $value->content;
+                    ?>
+                </div>
+                <ul class="post-supply-ul">
+                    <?php
+                        foreach($value->supply as $svalue)
+                        {
+                    ?>
+                            <li>
+                                <?php  echo $svalue->content ?>
+                                &nbsp;<a href="<?php echo Yii::app()->createUrl('/user/'.$value->user->display) ?>"><?php echo $value->user->display ?></a> :
+                                <?php echo $value->date ?>
+                            </li>
+                    <?php
+                        }
+                    ?>
+                </ul>
             </div>
             <hr class="post-comment-clear" />
         <?php } ?>
@@ -54,14 +107,14 @@ $this->pageTitle = $model->title .' - '. Yii::app()->name;
             'id'=>'question-answer',
             'enableAjaxValidation'=>false,
             'htmlOptions'=>array(
-                'class'=>'span10'
+                'class'=>'span9',
             )
         )); ?>
         <?php echo $form->errorSummary(array($answer)); ?>
         <?php echo $form->labelEx($answer,'content') ?>
-        <?php echo $form->textArea($answer,'content',array('id'=>'editor')) ?>
+        <?php echo $form->textArea($answer,'content',array('id'=>'editor','style'=>'width:700px')) ?>
         <div class="post-submit">
-            <?php echo CHtml::submitButton('添加答案'); ?>
+            <?php echo CHtml::submitButton('Post Answer'); ?>
         </div>
 
         <?php $this->endWidget(); ?>
@@ -70,23 +123,24 @@ $this->pageTitle = $model->title .' - '. Yii::app()->name;
 <!--左边结束-->
 <!--右边开始-->
 <div class="right span2">
-    <div class="span2">
-        <ul class="thumbnails pull-right">
-            <li class="span2">
-                <?php echo CHtml::link($model->user->display,Yii::app()->createUrl('/user/'.$model->user->id),
-                array(
-                    'rel'=>'tooltip',
-                    'date-title'=>'Tooltip',
-                    'class'=>'thumbnail',
-                ))?>
-            </li>
-            <p>
-                <span class="label label-info">tag</span>
-                <span class="label label-info">tag</span>
-                <span class="label label-info">tag</span>
-            </p>
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
+            <li><a href="">相关问题</a> </li>
         </ul>
-    </div>
 </div>
 <!--右边结束-->
 

@@ -14,11 +14,7 @@ $this->menu=array(
 
 <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
     'id'=>'question-form',
-    'enableAjaxValidation'=>true,
-    'enableClientValidation'=>true,
-    'clientOptions'=>array(
-        'validateOnSubmit'=>true,
-    )
+    'enableAjaxValidation'=>false,
 )); ?>
 
 

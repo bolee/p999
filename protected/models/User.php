@@ -41,7 +41,7 @@ class User extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('display, email,password', 'required'),
-            //array('display,email','unique'),
+            array('display,email','unique'),
             array('display, email', 'length', 'max'=>32),
             array('email','email'),
             array('password','length','min'=>'6','max'=>'16'),
@@ -71,11 +71,11 @@ class User extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'display' => '显示名称',
+			'display' => 'Display Name',
 			'email' => 'Email',
-			'password' => '密码',
-            'password2' => '重复密码',
-            'rememberMe'=>'下次自动登录'
+			'password' => 'Password',
+            'password2' => 'Affirm Password',
+            'rememberMe'=>'Auto Login'
 		);
 	}
 

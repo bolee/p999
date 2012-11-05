@@ -8,7 +8,6 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
-    'language'=>'zh_cn',
 	// preloading 'log' component
 	'preload'=>array(
         'log',
@@ -61,11 +60,12 @@ return array(
         */
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'pgsql:host=192.168.1.20;port=5432;dbname=p999',
+			'connectionString' => 'mysql:host=localhost;dbname=p999',
 			'emulatePrepare' => true,
-			'username' => 'postgres',
-			'password' => 'postgres',
+			'username' => 'root',
+			'password' => '',
 			'charset' => 'utf8',
+            'enableProfiling'=>true,
 		),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
@@ -79,11 +79,9 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				/*
 				array(
-					'class'=>'CWebLogRoute',
+					'class'=>'CProfileLogRoute',
 				),
-				*/
 			),
 		),
 	),

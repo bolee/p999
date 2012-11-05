@@ -27,11 +27,11 @@ class QuestionController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','tag'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','supply'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -50,8 +50,9 @@ class QuestionController extends Controller
 	 */
 	public function actionView($id)
 	{
-        $model =$this->loadModel($id);
+        $model=Question::model()->with(array('supply','user'))->findByPk($id);
         $answer=new Answer();
+        $answerData = Answer::model()->with(array('supply','user'))->findAllByAttributes(array('question_id'=>$model->id));
         if(isset($_POST['Answer']))
         {
             //添加评论
@@ -64,9 +65,10 @@ class QuestionController extends Controller
                 $this->redirect(array('/question/view','id'=>$model->id));
             }
         }
-		$this->render('view',array(
+        $this->render('view',array(
 			'model'=>$model,
             'answer'=>$answer,
+            'answerData'=>$answerData
 		));
 	}
 
@@ -78,8 +80,6 @@ class QuestionController extends Controller
 	{
 		$model=new Question;
         $tag =new Tag();
-        $this->performAjaxValidation($model);
-        $this->performAjaxValidation($tag);
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
@@ -87,8 +87,43 @@ class QuestionController extends Controller
 		{
             //增加问题
 			$model->attributes=$_POST['Question'];
+            $model->tags = $_POST['Tag']['name'];
+            $model->user_id = Yii::app()->user->id;
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+            {
+                $rel = new TagRelation();
+                //执行TAG插入
+                foreach(explode(',',$model->tags) as $value)
+                {
+                    //查询是否存在
+                    $data = $tag->findByAttributes(array('name'=>$value));
+                    if(empty($data))
+                    {
+                        //插入
+                        $tag->name = $value;
+                        $tag->total = 1;
+                        $tag->save();
+                        //跟文章进行关联
+                        $rel->question_id = $model->id;
+                        $rel->tag_id = $tag->id;
+                        $rel->save();
+                        $rel->isNewRecord = true;
+                        $tag->id = null;
+                        $tag->isNewRecord = true;
+                    } else {
+                        $data->updateCounters(array('total'=>1));
+                        //跟文章进行关联
+                        $rel->question_id = $model->id;
+                        $rel->tag_id = $data->id;
+                        $rel->save();
+                        $rel->isNewRecord = true;
+                    }
+                }
+                $this->redirect(array('view','id'=>$model->id));
+            } else {
+
+            }
+
 		}
 
 		$this->render('create',array(
@@ -97,49 +132,34 @@ class QuestionController extends Controller
 		));
 	}
 
-	/**
-	 * Updates a particular model.
-	 * If update is successful, the browser will be redirected to the 'view' page.
-	 * @param integer $id the ID of the model to be updated
-	 */
-	public function actionUpdate($id)
-	{
-		$model=$this->loadModel($id);
+    /*
+     * 补充
+     *
+     */
+    public function actionSupply()
+    {
+        if(isset($_POST['content']))
+        {
+            $supply = new Supply();
+            $supply->content = $_POST['content'];
+            list($type,$supply->type_id) = explode('-',$_POST['type_id']);
+            if($type == 'question')
+            {
+                $supply->type = 'q';
+            } else {
+                $supply->type = 'a';
+            }
+            $supply->date = date('Y-m-d H:i:s',time());
+            $supply->user_id = Yii::app()->user->id;
+            if($supply->save())
+            {
+                echo CJSON::encode(true);
+            } else {
+                echo CJSON::decode(false);
+            }
+        }
+    }
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Question']))
-		{
-			$model->attributes=$_POST['Question'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
-		}
-
-		$this->render('update',array(
-			'model'=>$model,
-		));
-	}
-
-	/**
-	 * Deletes a particular model.
-	 * If deletion is successful, the browser will be redirected to the 'admin' page.
-	 * @param integer $id the ID of the model to be deleted
-	 */
-	public function actionDelete($id)
-	{
-		if(Yii::app()->request->isPostRequest)
-		{
-			// we only allow deletion via POST request
-			$this->loadModel($id)->delete();
-
-			// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
-			if(!isset($_GET['ajax']))
-				$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
-		}
-		else
-			throw new CHttpException(400,'Invalid request. Please do not repeat this request again.');
-	}
 
 	/**
 	 * Lists all models.
@@ -152,33 +172,28 @@ class QuestionController extends Controller
 		));
 	}
 
-	/**
-	 * Manages all models.
-	 */
-	public function actionAdmin()
-	{
-		$model=new Question('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Question']))
-			$model->attributes=$_GET['Question'];
+    public function actionTag($tag)
+    {
+        $name = Tag::model()->findByAttributes(array('name'=>$tag));
+        $question = new CActiveDataProvider('question',array(
+            'criteria'=>array(
+                'order'=>'q.id DESC',
+                'alias'=>'q',
+                'condition'=>"r.tag_id = {$name->id}",
+                'with'=>array(
+                    'rel'=>array(
+                        'alias'=>'r',
+                        'joinType'=>'inner join'
+                    )
+                )
+            ),
+            'pagination'=>array(
+                'pageSize'=>50,
+            ),
+        ));
+        $this->render('tag',array('question'=>$question));
+    }
 
-		$this->render('admin',array(
-			'model'=>$model,
-		));
-	}
-
-	/**
-	 * Returns the data model based on the primary key given in the GET variable.
-	 * If the data model is not found, an HTTP exception will be raised.
-	 * @param integer the ID of the model to be loaded
-	 */
-	public function loadModel($id)
-	{
-		$model=Question::model()->findByPk($id);
-		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
-		return $model;
-	}
 
 	/**
 	 * Performs the AJAX validation.

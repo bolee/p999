@@ -35,7 +35,7 @@ class SiteController extends Controller
                 'order'=>'id DESC',
             ),
             'pagination'=>array(
-                'pageSize'=>4,
+                'pageSize'=>50,
             ),
         ));
 		$this->render('index',array('question'=>$question));

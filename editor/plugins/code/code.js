@@ -53,7 +53,7 @@ KindEditor.plugin('code', function(K) {
                         var type = K('.ke-code-type', dialog.div).val(),
                             code = textarea.val(),
                             cls = type === '' ? '' : type,
-                            html = '<pre class="brush:' + cls + '">\n' + K.escape(code) + '</pre> ';
+                            html = '<pre class="brush:' + cls + ';toolbar: true;">\n' + K.escape(code) + '</pre> ';
                         self.insertHtml(html).hideDialog().focus();
                     }
                 }

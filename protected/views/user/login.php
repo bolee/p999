@@ -1,5 +1,5 @@
 <?php
-$this->pageTitle = '用户注册';
+$this->pageTitle = 'Register';
 $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
     'id'=>'user-form',
     'enableAjaxValidation'=>true,
@@ -11,10 +11,13 @@ $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
 ));
 ?>
 
-<p class="help-block">用户登陆.</p>
+<p class="help-block">User Login.</p>
 
 <?php echo $form->errorSummary($user); ?>
-
+<?php if(!empty($error)) { ?>
+<div class="alert alert-block alert-error" id="user-form_es_" style=""><p>Please correct the following input errors:</p>
+    <ul><li><?php echo $error ?></li></ul></div>
+<?php } ?>
 <?php echo $form->textFieldRow($user,'email',array('class'=>'span5','maxlength'=>32)); ?>
 
 <?php echo $form->passwordFieldRow($user,'password',array('class'=>'span5','maxlength'=>32)); ?>
@@ -24,7 +27,7 @@ $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
     <?php $this->widget('bootstrap.widgets.TbButton', array(
     'buttonType'=>'submit',
     'type'=>'primary',
-    'label'=>'登陆',
+    'label'=>'Login',
 )); ?>
 </div>
 
