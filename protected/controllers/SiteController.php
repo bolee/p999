@@ -30,7 +30,7 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
         /*查找问题*/
-        $question = new CActiveDataProvider('question',array(
+        $question = new CActiveDataProvider('Question',array(
             'criteria'=>array(
                 'order'=>'id DESC',
             ),
