@@ -43,7 +43,7 @@
                 )),
             ),
         ),
-        '<form class="navbar-search pull-left" action=""><input type="text" class="search-query span4" placeholder="Search"></form>',
+        '<form class="navbar-search pull-left" action=""><input type="text" class="search-query span3" placeholder="Search"></form>',
     ),
 )); ?>
     <div class="clear_top"></div>

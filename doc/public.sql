@@ -1,32 +1,25 @@
--- phpMyAdmin SQL Dump
--- version 3.5.1
--- http://www.phpmyadmin.net
---
--- 主机: localhost
--- 生成日期: 2012 年 11 月 05 日 11:28
--- 服务器版本: 5.5.24-log
--- PHP 版本: 5.4.3
+/*
+Navicat MySQL Data Transfer
 
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+Source Server         : localhost
+Source Server Version : 50524
+Source Host           : localhost:3306
+Source Database       : p999
 
+Target Server Type    : MYSQL
+Target Server Version : 50524
+File Encoding         : 65001
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+Date: 2012-11-06 22:44:54
+*/
 
---
--- 数据库: `p999`
---
+SET FOREIGN_KEY_CHECKS=0;
 
--- --------------------------------------------------------
-
---
--- 表的结构 `answer`
---
-
-CREATE TABLE IF NOT EXISTS `answer` (
+-- ----------------------------
+-- Table structure for `answer`
+-- ----------------------------
+DROP TABLE IF EXISTS `answer`;
+CREATE TABLE `answer` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `content` text NOT NULL,
   `user_id` int(11) NOT NULL,
@@ -35,16 +28,19 @@ CREATE TABLE IF NOT EXISTS `answer` (
   `useful` tinyint(2) DEFAULT '0',
   `nouse` tinyint(2) DEFAULT '0',
   `question_id` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+  PRIMARY KEY (`id`),
+  KEY `question_id` (`question_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- --------------------------------------------------------
+-- ----------------------------
+-- Records of answer
+-- ----------------------------
 
---
--- 表的结构 `cj`
---
-
-CREATE TABLE IF NOT EXISTS `cj` (
+-- ----------------------------
+-- Table structure for `cj`
+-- ----------------------------
+DROP TABLE IF EXISTS `cj`;
+CREATE TABLE `cj` (
   `md5` char(32) NOT NULL DEFAULT '',
   `question` text,
   `answer` longtext,
@@ -53,13 +49,15 @@ CREATE TABLE IF NOT EXISTS `cj` (
   PRIMARY KEY (`md5`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- --------------------------------------------------------
+-- ----------------------------
+-- Records of cj
+-- ----------------------------
 
---
--- 表的结构 `question`
---
-
-CREATE TABLE IF NOT EXISTS `question` (
+-- ----------------------------
+-- Table structure for `question`
+-- ----------------------------
+DROP TABLE IF EXISTS `question`;
+CREATE TABLE `question` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(256) NOT NULL,
   `user_id` int(11) NOT NULL,
@@ -71,58 +69,68 @@ CREATE TABLE IF NOT EXISTS `question` (
   `nouse` int(11) DEFAULT '0',
   `tags` varchar(64) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- --------------------------------------------------------
+-- ----------------------------
+-- Records of question
+-- ----------------------------
 
---
--- 表的结构 `supply`
---
-
-CREATE TABLE IF NOT EXISTS `supply` (
+-- ----------------------------
+-- Table structure for `supply`
+-- ----------------------------
+DROP TABLE IF EXISTS `supply`;
+CREATE TABLE `supply` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
   `content` text NOT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `type` enum('q','a') NOT NULL,
   `type_id` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+  PRIMARY KEY (`id`),
+  KEY `type` (`type`,`type_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- --------------------------------------------------------
+-- ----------------------------
+-- Records of supply
+-- ----------------------------
 
---
--- 表的结构 `tag`
---
-
-CREATE TABLE IF NOT EXISTS `tag` (
+-- ----------------------------
+-- Table structure for `tag`
+-- ----------------------------
+DROP TABLE IF EXISTS `tag`;
+CREATE TABLE `tag` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(16) NOT NULL,
+  `name` char(32) NOT NULL,
   `total` int(11) DEFAULT '0',
   `date` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- --------------------------------------------------------
+-- ----------------------------
+-- Records of tag
+-- ----------------------------
 
---
--- 表的结构 `tag_relation`
---
-
-CREATE TABLE IF NOT EXISTS `tag_relation` (
+-- ----------------------------
+-- Table structure for `tag_relation`
+-- ----------------------------
+DROP TABLE IF EXISTS `tag_relation`;
+CREATE TABLE `tag_relation` (
   `question_id` int(11) NOT NULL,
   `tag_id` int(11) NOT NULL,
   `date` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`question_id`,`tag_id`)
+  PRIMARY KEY (`question_id`,`tag_id`),
+  KEY `tag_id` (`tag_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- --------------------------------------------------------
+-- ----------------------------
+-- Records of tag_relation
+-- ----------------------------
 
---
--- 表的结构 `user`
---
-
-CREATE TABLE IF NOT EXISTS `user` (
+-- ----------------------------
+-- Table structure for `user`
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `display` varchar(32) NOT NULL,
   `email` varchar(32) NOT NULL,
@@ -132,8 +140,8 @@ CREATE TABLE IF NOT EXISTS `user` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `display` (`display`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-- ----------------------------
+-- Records of user
+-- ----------------------------
