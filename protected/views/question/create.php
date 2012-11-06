@@ -22,7 +22,7 @@ $this->menu=array(
 
 <?php echo $form->textFieldRow($model,'title',array('class'=>'span5','maxlength'=>256)); ?>
 
-<?php echo $form->textAreaRow($model,'content',array('rows'=>6, 'cols'=>50, 'class'=>'span8')); ?>
+<?php echo $form->textArea($model,'content',array('class'=>'span6','id'=>'editor','style'=>'width:700px')); ?>
 
 <?php echo $form->textFieldRow($tag,'name',array('rows'=>6, 'cols'=>50, 'class'=>'span8')); ?>
 

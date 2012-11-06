@@ -64,7 +64,8 @@ class Question extends CActiveRecord
             'user'=>array(self::BELONGS_TO,'User','user_id'),
             'answer'=>array(self::HAS_MANY,'Answer','question_id'),
             'supply'=>array(self::HAS_MANY,'Supply','type_id','on'=>'supply.type="q"','alias'=>'supply'),
-            'rel'=>array(self::HAS_ONE,'TagRelation','question_id')
+            'rel'=>array(self::HAS_ONE,'TagRelation','question_id'),
+            'tag_relation'=>array(self::HAS_ONE,'TagRelation','question_id'),
         );
 	}
 

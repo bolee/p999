@@ -5,11 +5,11 @@ $this->breadcrumbs=array(
 );
 $this->pageTitle = $model->title .' - '. Yii::app()->name;
 ?>
-<!--标题-->
+<!--title-->
 <h1><?php echo $model->title; ?></h1>
-<!--左边-->
+<!--left-->
 <div class="left">
-    <!--内容左边-->
+    <!--content left-->
     <div class="post-question span10">
         <div class="post-cell">
             <div class="post-cell-useful">
@@ -120,29 +120,22 @@ $this->pageTitle = $model->title .' - '. Yii::app()->name;
         <?php $this->endWidget(); ?>
     <?php } ?>
 </div>
-<!--左边结束-->
-<!--右边开始-->
+<!--left end-->
+<!--right start-->
 <div class="right span2">
         <ul class="nav nav-pills nav-stacked">
-            <li class="active"><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
-            <li><a href="">相关问题</a> </li>
+            <li class="active"><a href="">Related</a> </li>
+            <?php
+                foreach($relation_tag as $value)
+                {
+                    ?>
+                        <li><a href="<?php echo Yii::app()->createUrl('/question/view',array('id'=>$value->id)) ?>"><?php echo $value->title ?></a> </li>
+                    <?php
+                }
+            ?>
         </ul>
 </div>
-<!--右边结束-->
+<!--right end-->
 
 
 

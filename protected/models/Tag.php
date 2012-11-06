@@ -64,7 +64,7 @@ class Tag extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
+			'name' => 'Tag use(,)segmentation',
 			'total' => 'Total',
 			'date' => 'Date',
 		);

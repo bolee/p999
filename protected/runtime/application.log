@@ -351,3 +351,69 @@ REQUEST_URI=/p999/index.php?r=question/tag&tag=encoding
 in D:\wamp\www\p999\protected\views\question\tag.php (8)
 in D:\wamp\www\p999\protected\controllers\QuestionController.php (194)
 in D:\wamp\www\p999\index.php (13)
+2012/11/06 12:49:52 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "tag_relation" is not defined in active record class "Question".' in D:\wamp\www\p999\framework\db\ar\CActiveFinder.php:216
+Stack trace:
+#0 D:\wamp\www\p999\framework\db\ar\CActiveFinder.php(282): CActiveFinder->buildJoinTree(Object(CJoinElement), 'tag_relation', Array)
+#1 D:\wamp\www\p999\framework\db\ar\CActiveFinder.php(49): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(1295): CActiveFinder->__construct(Object(Question), Array)
+#3 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#4 D:\wamp\www\p999\protected\controllers\QuestionController.php(71): CActiveRecord->findAll(Array)
+#5 [internal function]: QuestionController->actionView('97')
+#6 D:\wamp\www\p999\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#7 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(QuestionController), Object(ReflectionMethod), Array)
+#8 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#15 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('view')
+#17 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/view')
+#18 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\wamp\www\p999\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/p999/index.php?r=question/view&id=97
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/06 13:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'HTTP NOT FOUND' in D:\wamp\www\p999\protected\controllers\QuestionController.php:56
+Stack trace:
+#0 [internal function]: QuestionController->actionView('980')
+#1 D:\wamp\www\p999\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#2 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(QuestionController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#10 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('view')
+#12 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/view')
+#13 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\wamp\www\p999\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/p999/index.php?r=question/view&id=980
+---
+2012/11/06 13:16:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'QUESTION NOT FOUND' in D:\wamp\www\p999\protected\controllers\QuestionController.php:56
+Stack trace:
+#0 [internal function]: QuestionController->actionView('980')
+#1 D:\wamp\www\p999\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#2 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(QuestionController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#10 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('view')
+#12 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/view')
+#13 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\wamp\www\p999\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/p999/index.php?r=question/view&id=980
+---

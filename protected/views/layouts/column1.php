@@ -5,11 +5,13 @@
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
     <script charset="utf-8" src="<?php echo Yii::app()->baseUrl ?>/editor/kindeditor.js"></script>
-    <script charset="utf-8" src="<?php echo Yii::app()->baseUrl ?>/editor/lang/zh_CN.js"></script>
+    <script charset="utf-8" src="<?php echo Yii::app()->baseUrl ?>/editor/lang/en.js"></script>
     <script>
         var editor;
         KindEditor.ready(function(K) {
-            editor = K.create('#editor')
+            editor = K.create('#editor', {
+                langType : 'en'
+            })
         });
     </script>
 </head>

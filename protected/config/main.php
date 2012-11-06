@@ -66,6 +66,7 @@ return array(
 			'password' => '',
 			'charset' => 'utf8',
             'enableProfiling'=>true,
+            'enableParamLogging'=>true,//TODO 生成环境关闭
 		),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors

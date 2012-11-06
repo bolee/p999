@@ -51,8 +51,29 @@ class QuestionController extends Controller
 	public function actionView($id)
 	{
         $model=Question::model()->with(array('supply','user'))->findByPk($id);
+        if(empty($model))
+        {
+            throw new CHttpException('404','QUESTION NOT FOUND');
+        }
         $answer=new Answer();
         $answerData = Answer::model()->with(array('supply','user'))->findAllByAttributes(array('question_id'=>$model->id));
+        //reltaion tag
+        $rel = TagRelation::model()->findAllByAttributes(array('question_id'=>$model->id));
+        $id = null;
+        $relation_tag = null;
+        if(!empty($rel))
+        {
+            foreach($rel as $value)
+            {
+                $id .= $value->tag_id.',';
+            }
+            $id = rtrim($id,',');
+            $relation_tag = Question::model()->with(array('tag_relation'=>array(
+                'on'=>'r.question_id=q.id',
+                'alias'=>'r',
+                'condition'=>"r.tag_id in ($id)",
+            )))->findAll(array('alias'=>'q','order'=>'q.id DESC','limit'=>30));
+        }
         if(isset($_POST['Answer']))
         {
             //添加评论
@@ -68,7 +89,8 @@ class QuestionController extends Controller
         $this->render('view',array(
 			'model'=>$model,
             'answer'=>$answer,
-            'answerData'=>$answerData
+            'answerData'=>$answerData,
+            'relation_tag'=>$relation_tag
 		));
 	}
 
