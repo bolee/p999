@@ -197,7 +197,7 @@ class QuestionController extends Controller
     public function actionTag($tag)
     {
         $name = Tag::model()->findByAttributes(array('name'=>$tag));
-        $question = new CActiveDataProvider('question',array(
+        $question = new CActiveDataProvider('Question',array(
             'criteria'=>array(
                 'order'=>'q.id DESC',
                 'alias'=>'q',
