@@ -32,7 +32,7 @@ class SiteController extends Controller
         /*查找问题*/
         $question = new CActiveDataProvider('Question',array(
             'criteria'=>array(
-                'order'=>'updatetime,id DESC',
+                'order'=>'updatetime DESC',
             ),
             'pagination'=>array(
                 'pageSize'=>50,
