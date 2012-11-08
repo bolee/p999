@@ -417,3 +417,2530 @@ Stack trace:
 #15 {main}
 REQUEST_URI=/p999/index.php?r=question/view&id=980
 ---
+2012/11/07 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/90
+---
+2012/11/07 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/90
+---
+2012/11/07 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/90
+---
+2012/11/07 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/90
+---
+2012/11/07 13:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=nancy
+---
+2012/11/07 13:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=nancy
+---
+2012/11/07 13:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=nancy
+---
+2012/11/07 13:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=nancy
+---
+2012/11/07 13:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=data-visualization
+---
+2012/11/07 13:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=data-visualization
+---
+2012/11/07 13:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=data-visualization
+---
+2012/11/07 13:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=data-visualization
+---
+2012/11/07 13:04:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=data-visualization
+---
+2012/11/07 13:04:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=data-visualization
+---
+2012/11/07 13:04:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=data-visualization
+---
+2012/11/07 13:04:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=data-visualization
+---
+2012/11/07 13:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=ggplot2
+---
+2012/11/07 13:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=ggplot2
+---
+2012/11/07 13:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=ggplot2
+---
+2012/11/07 13:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=ggplot2
+---
+2012/11/07 13:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=adobe-illustrator
+---
+2012/11/07 13:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=adobe-illustrator
+---
+2012/11/07 13:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=adobe-illustrator
+---
+2012/11/07 13:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=adobe-illustrator
+---
+2012/11/07 13:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=adobe-illustrator
+---
+2012/11/07 13:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=adobe-illustrator
+---
+2012/11/07 13:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=adobe-illustrator
+---
+2012/11/07 13:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/index.php/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/index.php/question/tag?tag=adobe-illustrator
+---
+2012/11/07 13:11:18 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/index.php/question/tag?tag=jqgrid
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 13:11:37 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/index.php/question/tag?tag=autocomplete
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 13:13:20 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/question/tag?tag=autocomplete
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 13:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:14:00 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/question/tag?tag=jquery
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 13:14:25 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<question>/<tag>/<tag:\w+>" for route "question/tag" is not a valid regular expression.' in D:\wamp\www\p999\framework\web\CUrlManager.php:701
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CUrlManager.php(269): CUrlRule->__construct('question/tag', '<question>/<tag...')
+#1 D:\wamp\www\p999\framework\web\CUrlManager.php(227): CUrlManager->createUrlRule('question/tag', '<question>/<tag...')
+#2 D:\wamp\www\p999\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#3 D:\wamp\www\p999\framework\base\CModule.php(388): CUrlManager->init()
+#4 D:\wamp\www\p999\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#5 D:\wamp\www\p999\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#6 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\wamp\www\p999\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/p999/question/91
+HTTP_REFERER=http://127.0.0.1/p999/index.php
+---
+2012/11/07 13:14:27 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<question>/<tag>/<tag:\w+>" for route "question/tag" is not a valid regular expression.' in D:\wamp\www\p999\framework\web\CUrlManager.php:701
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CUrlManager.php(269): CUrlRule->__construct('question/tag', '<question>/<tag...')
+#1 D:\wamp\www\p999\framework\web\CUrlManager.php(227): CUrlManager->createUrlRule('question/tag', '<question>/<tag...')
+#2 D:\wamp\www\p999\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#3 D:\wamp\www\p999\framework\base\CModule.php(388): CUrlManager->init()
+#4 D:\wamp\www\p999\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#5 D:\wamp\www\p999\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#6 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\wamp\www\p999\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/p999/question/91
+HTTP_REFERER=http://127.0.0.1/p999/index.php
+---
+2012/11/07 13:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:15:26 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<controller:\w+>/<action:\w+>/<tag>/<tag:\d+>" for route "<controller>/<action>" is not a valid regular expression.' in D:\wamp\www\p999\framework\web\CUrlManager.php:701
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CUrlManager.php(269): CUrlRule->__construct('<controller>/<a...', '<controller:\w+...')
+#1 D:\wamp\www\p999\framework\web\CUrlManager.php(227): CUrlManager->createUrlRule('<controller>/<a...', '<controller:\w+...')
+#2 D:\wamp\www\p999\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#3 D:\wamp\www\p999\framework\base\CModule.php(388): CUrlManager->init()
+#4 D:\wamp\www\p999\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#5 D:\wamp\www\p999\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#6 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\wamp\www\p999\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/p999/question/91
+HTTP_REFERER=http://127.0.0.1/p999/index.php
+---
+2012/11/07 13:15:28 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<controller:\w+>/<action:\w+>/<tag>/<tag:\d+>" for route "<controller>/<action>" is not a valid regular expression.' in D:\wamp\www\p999\framework\web\CUrlManager.php:701
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CUrlManager.php(269): CUrlRule->__construct('<controller>/<a...', '<controller:\w+...')
+#1 D:\wamp\www\p999\framework\web\CUrlManager.php(227): CUrlManager->createUrlRule('<controller>/<a...', '<controller:\w+...')
+#2 D:\wamp\www\p999\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#3 D:\wamp\www\p999\framework\base\CModule.php(388): CUrlManager->init()
+#4 D:\wamp\www\p999\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#5 D:\wamp\www\p999\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#6 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\wamp\www\p999\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/p999/question/91
+HTTP_REFERER=http://127.0.0.1/p999/index.php
+---
+2012/11/07 13:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:15:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/au...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/autocomplete
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:15:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/ed...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:15:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/ed...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:15:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/js...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:15:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/ed...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:16:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/au...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/autocomplete
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/ed...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:16:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/ed...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:16:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/ed...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:16:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/js...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:16:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/au...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/autocomplete
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/ed...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:16:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/ed...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:16:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/ed...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:16:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wamp\www\p999\framework\web\CController.php:337
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('tag')
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/tag/js...')
+#10 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\wamp\www\p999\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/p999/question/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/tag/autocomplete
+---
+2012/11/07 13:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jqgrid".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('jqgrid')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('jqgrid')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/jqgrid')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/jqgrid
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:17:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jqgrid".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('jqgrid')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('jqgrid')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/jqgrid')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/jqgrid
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:17:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:17:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:17:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:17:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:17:30 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<tag>/<tag:\d+>" for route "<controller>/tag" is not a valid regular expression.' in D:\wamp\www\p999\framework\web\CUrlManager.php:701
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CUrlManager.php(269): CUrlRule->__construct('<controller>/ta...', '<tag>/<tag:\d+>')
+#1 D:\wamp\www\p999\framework\web\CUrlManager.php(227): CUrlManager->createUrlRule('<controller>/ta...', '<tag>/<tag:\d+>')
+#2 D:\wamp\www\p999\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#3 D:\wamp\www\p999\framework\base\CModule.php(388): CUrlManager->init()
+#4 D:\wamp\www\p999\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#5 D:\wamp\www\p999\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#6 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\wamp\www\p999\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/p999/
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:17:32 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<tag>/<tag:\d+>" for route "<controller>/tag" is not a valid regular expression.' in D:\wamp\www\p999\framework\web\CUrlManager.php:701
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CUrlManager.php(269): CUrlRule->__construct('<controller>/ta...', '<tag>/<tag:\d+>')
+#1 D:\wamp\www\p999\framework\web\CUrlManager.php(227): CUrlManager->createUrlRule('<controller>/ta...', '<tag>/<tag:\d+>')
+#2 D:\wamp\www\p999\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#3 D:\wamp\www\p999\framework\base\CModule.php(388): CUrlManager->init()
+#4 D:\wamp\www\p999\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#5 D:\wamp\www\p999\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#6 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\wamp\www\p999\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/p999/
+HTTP_REFERER=http://127.0.0.1/p999/question/jqgrid
+---
+2012/11/07 13:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:18:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:18:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:18:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:18:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('jquery')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('jquery')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/jquery')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/jquery
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('jquery')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('jquery')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/jquery')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/jquery
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/jquery
+---
+2012/11/07 13:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/jquery
+---
+2012/11/07 13:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/jquery
+---
+2012/11/07 13:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/jquery
+---
+2012/11/07 13:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/autocomplete".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/autocomplet...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/autocomplete
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 13:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shCore.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/js/d.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/js/d.js')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shAutoloader.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/styles/shCoreDefault.css".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/autocomplete".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/autocomplet...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/autocomplete
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 13:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/js/d.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/js/d.js')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shCore.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/styles/shCoreDefault.css".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shAutoloader.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/autocomplete".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/autocomplet...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/autocomplete
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 13:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shAutoloader.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shCore.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/styles/shCoreDefault.css".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/js/d.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/js/d.js')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/autocomplete".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/autocomplet...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/autocomplete
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 13:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/styles/shCoreDefault.css".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shCore.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/js/d.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/js/d.js')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shAutoloader.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:22:19 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<tag>/<tag:\d+>" for route "question/tag" is not a valid regular expression.' in D:\wamp\www\p999\framework\web\CUrlManager.php:701
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CUrlManager.php(269): CUrlRule->__construct('question/tag', '<tag>/<tag:\d+>')
+#1 D:\wamp\www\p999\framework\web\CUrlManager.php(227): CUrlManager->createUrlRule('question/tag', '<tag>/<tag:\d+>')
+#2 D:\wamp\www\p999\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#3 D:\wamp\www\p999\framework\base\CModule.php(388): CUrlManager->init()
+#4 D:\wamp\www\p999\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#5 D:\wamp\www\p999\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#6 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\wamp\www\p999\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/p999/tag/autocomplete
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 13:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/jquery".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/jquery')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/jquery
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 13:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/styles/shCoreDefault.css".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/tag/jquery
+---
+2012/11/07 13:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/js/d.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/js/d.js')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/jquery
+---
+2012/11/07 13:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shCore.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/jquery
+---
+2012/11/07 13:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shAutoloader.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/jquery
+---
+2012/11/07 13:22:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/jquery".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/jquery')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/jquery
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 13:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/styles/shCoreDefault.css".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/tag/jquery
+---
+2012/11/07 13:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shCore.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/jquery
+---
+2012/11/07 13:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shAutoloader.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/jquery
+---
+2012/11/07 13:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/js/d.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/js/d.js')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/jquery
+---
+2012/11/07 13:22:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "autocomplete".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('autocomplete')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/autocomplete
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 13:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/91
+---
+2012/11/07 13:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/styles/shCoreDefault.css".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shCore.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shAutoloader.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/js/d.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/js/d.js')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/autocomplete
+---
+2012/11/07 13:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/data-visualization".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/data-visual...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/data-visualization
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 13:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/styles/shCoreDefault.css".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/tag/data-visualization
+---
+2012/11/07 13:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shCore.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/data-visualization
+---
+2012/11/07 13:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/editor/sy/scripts/shAutoloader.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/editor/sy/s...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/data-visualization
+---
+2012/11/07 13:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tag/js/d.js".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('tag/js/d.js')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/tag/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/tag/data-visualization
+---
+2012/11/07 13:25:27 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 13:25:33 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/tag/js/d.js
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 13:25:37 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 13:25:39 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 14:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/status.png".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('images/status.p...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/images/status.png
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 14:57:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/status.png".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('images/status.p...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/images/status.png
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/07 14:57:35 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/tag/editor/sy/styles/shCoreDefault.css
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 14:57:36 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/tag/editor/sy/scripts/shCore.js
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 14:57:37 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/tag/editor/sy/scripts/shAutoloader.js
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 14:57:38 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/tag/js/d.js
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 14:57:46 [error] [php] Trying to get property of non-object (D:\wamp\www\p999\protected\controllers\QuestionController.php:204)
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): QuestionController->runAction()
+#3 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\wamp\www\p999\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): QuestionController->filterAccessControl()
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(266): QuestionController->runActionWithFilters()
+#9 D:\wamp\www\p999\framework\web\CWebApplication.php(283): QuestionController->run()
+#10 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\wamp\www\p999\index.php(13): CWebApplication->run()
+REQUEST_URI=/p999/tag/knockout.js
+in D:\wamp\www\p999\protected\controllers\QuestionController.php (204)
+in D:\wamp\www\p999\index.php (13)
+2012/11/07 15:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/181
+---
+2012/11/07 15:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/181
+---
+2012/11/07 15:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/181
+---
+2012/11/07 15:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/181
+---
+2012/11/07 15:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/vote.png".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('images/vote.png')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/images/vote.png
+HTTP_REFERER=http://127.0.0.1/p999/question/181
+---
+2012/11/07 15:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/js/d.js')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/user/reg
+---
+2012/11/07 15:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/user/reg
+---
+2012/11/07 15:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/user/reg
+---
+2012/11/07 15:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/user/reg
+---
+2012/11/08 11:54:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updatetime' in 'order clause'. The SQL statement executed was: SELECT * FROM `question` `t` ORDER BY updatetime DESC LIMIT 50.
+in D:\wamp\www\p999\protected\extensions\bootstrap\widgets\TbListView.php (37)
+in D:\wamp\www\p999\protected\views\site\index.php (8)
+in D:\wamp\www\p999\protected\controllers\SiteController.php (41)
+2012/11/08 11:54:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updatetime' in 'order clause'. The SQL statement executed was: SELECT * FROM `question` `t` ORDER BY updatetime DESC LIMIT 50' in D:\wamp\www\p999\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\wamp\www\p999\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\wamp\www\p999\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\wamp\www\p999\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#5 D:\wamp\www\p999\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#6 D:\wamp\www\p999\framework\zii\widgets\CListView.php(182): CBaseListView->init()
+#7 D:\wamp\www\p999\protected\extensions\bootstrap\widgets\TbListView.php(37): CListView->init()
+#8 D:\wamp\www\p999\framework\web\CBaseController.php(148): TbListView->init()
+#9 D:\wamp\www\p999\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#10 D:\wamp\www\p999\protected\views\site\index.php(8): CBaseController->widget('bootstrap.widge...', Array)
+#11 D:\wamp\www\p999\framework\web\CBaseController.php(127): require('D:\wamp\www\p99...')
+#12 D:\wamp\www\p999\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\wamp\www\p99...', Array, true)
+#13 D:\wamp\www\p999\framework\web\CController.php(870): CBaseController->renderFile('D:\wamp\www\p99...', Array, true)
+#14 D:\wamp\www\p999\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#15 D:\wamp\www\p999\protected\controllers\SiteController.php(41): CController->render('index', Array)
+#16 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\wamp\www\p999\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('')
+#21 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#22 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\wamp\www\p999\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/p999/
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/11/08 11:54:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updatetime' in 'order clause'. The SQL statement executed was: SELECT * FROM `question` `t` ORDER BY updatetime DESC LIMIT 50.
+in D:\wamp\www\p999\protected\extensions\bootstrap\widgets\TbListView.php (37)
+in D:\wamp\www\p999\protected\views\site\index.php (8)
+in D:\wamp\www\p999\protected\controllers\SiteController.php (41)
+2012/11/08 11:54:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updatetime' in 'order clause'. The SQL statement executed was: SELECT * FROM `question` `t` ORDER BY updatetime DESC LIMIT 50' in D:\wamp\www\p999\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\wamp\www\p999\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\wamp\www\p999\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\wamp\www\p999\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#5 D:\wamp\www\p999\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#6 D:\wamp\www\p999\framework\zii\widgets\CListView.php(182): CBaseListView->init()
+#7 D:\wamp\www\p999\protected\extensions\bootstrap\widgets\TbListView.php(37): CListView->init()
+#8 D:\wamp\www\p999\framework\web\CBaseController.php(148): TbListView->init()
+#9 D:\wamp\www\p999\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#10 D:\wamp\www\p999\protected\views\site\index.php(8): CBaseController->widget('bootstrap.widge...', Array)
+#11 D:\wamp\www\p999\framework\web\CBaseController.php(127): require('D:\wamp\www\p99...')
+#12 D:\wamp\www\p999\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\wamp\www\p99...', Array, true)
+#13 D:\wamp\www\p999\framework\web\CController.php(870): CBaseController->renderFile('D:\wamp\www\p99...', Array, true)
+#14 D:\wamp\www\p999\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#15 D:\wamp\www\p999\protected\controllers\SiteController.php(41): CController->render('index', Array)
+#16 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\wamp\www\p999\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('')
+#21 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#22 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\wamp\www\p999\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/p999/
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/11/08 11:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/status.png".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('images/status.p...')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/images/status.png
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2012/11/08 11:58:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:58:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:58:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:58:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/vote.png".' in D:\wamp\www\p999\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('images/vote.png')
+#1 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\p999\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/p999/images/vote.png
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/js/d.js')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/user/login
+---
+2012/11/08 11:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/user/login
+---
+2012/11/08 11:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/user/login
+---
+2012/11/08 11:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/user/login
+---
+2012/11/08 11:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/user/reg
+---
+2012/11/08 11:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/user/reg
+---
+2012/11/08 11:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/js/d.js')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/user/reg
+---
+2012/11/08 11:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('user/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/user/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/user/reg
+---
+2012/11/08 11:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('site/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/site/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/site/index
+---
+2012/11/08 11:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('site/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/site/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/site/index
+---
+2012/11/08 11:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('site/editor/sy/...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/site/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/site/index
+---
+2012/11/08 11:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/d.js')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/site/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/site/index
+---
+2012/11/08 11:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/styles/shCoreDefault.css
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shAutoloader.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('js')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('js')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/js/d.j...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/js/d.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---
+2012/11/08 11:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editor".' in D:\wamp\www\p999\framework\web\CController.php:484
+Stack trace:
+#0 D:\wamp\www\p999\framework\web\CController.php(271): CController->missingAction('editor')
+#1 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('editor')
+#2 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/editor...')
+#3 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wamp\www\p999\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/p999/question/editor/sy/scripts/shCore.js
+HTTP_REFERER=http://127.0.0.1/p999/question/168
+---

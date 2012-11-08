@@ -29,6 +29,19 @@ $this->pageTitle = $model->title .' - '. Yii::app()->name;
             </div>
             <div class="well">
                 <?php echo $model->content;?>
+                <div class="tag">
+                    <?php
+                    if(!empty($model->tags))
+                    {
+                        foreach(explode(',',$model->tags) as $value)
+                        {
+                            ?>
+                            <a class="label" href="<?php echo Yii::app()->createUrl('/question/tag',array('tag'=>$value)) ?>"><?php echo $value ?></a>
+                            <?php
+                        }
+                    }
+                    ?>
+                </div>
             </div>
             <ul class="post-supply-ul">
                 <?php
@@ -45,19 +58,6 @@ $this->pageTitle = $model->title .' - '. Yii::app()->name;
                 }
                 ?>
             </ul>
-            <div class="tag">
-                <?php
-                    if(!empty($model->tags))
-                    {
-                        foreach(explode(',',$model->tags) as $value)
-                        {
-                            ?>
-                            <a class="label" href="<?php echo Yii::app()->createUrl('/question/tag',array('tag'=>$value)) ?>"><?php echo $value ?></a>
-                            <?php
-                        }
-                    }
-                ?>
-            </div>
         </div>
     </div>
     <div class="post-comment span10">
