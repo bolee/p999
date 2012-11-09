@@ -1,3 +1,6 @@
+<?php
+$this->pageTitle = $tag.' - '. Yii::app()->name;
+?>
 <!--左边-->
 <div class="left">
     <?php

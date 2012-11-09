@@ -213,7 +213,7 @@ class QuestionController extends Controller
                 'pageSize'=>50,
             ),
         ));
-        $this->render('tag',array('question'=>$question));
+        $this->render('tag',array('question'=>$question,'tag'=>$tag));
     }
 
 
