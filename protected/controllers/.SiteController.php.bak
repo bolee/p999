@@ -33,7 +33,6 @@ class SiteController extends Controller
         $question = new CActiveDataProvider('Question',array(
             'criteria'=>array(
                 'order'=>'updatetime DESC',
-              	'condition'=>'answer_num>0',
             ),
             'pagination'=>array(
                 'pageSize'=>50,

@@ -45,7 +45,7 @@
         }
 
       
-      public function actionView($id)
+      public function actionView1($id)
         {
             $model=Question::model()->with(array('supply','user'))->findByPk($id);
             if(empty($model))
@@ -94,7 +94,56 @@
             ));
         }
       
-      
+        /**
+         * Displays a particular model.
+         * @param integer $id the ID of the model to be displayed
+         */
+        public function actionView($id)
+        {
+            $model=Question::model()->with(array('supply','user'))->findByPk($id);
+            if(empty($model))
+            {
+                throw new CHttpException('404','QUESTION NOT FOUND');
+            }
+            $answer=new Answer();
+            $answerData = Answer::model()->with(array('supply','user'))->findAllByAttributes(array('question_id'=>$model->id));
+            //reltaion tag
+            $rel = TagRelation::model()->findAllByAttributes(array('question_id'=>$model->id),array('limit'=>30,'order'=>'tag_id desc'));
+            $id = null;
+            $relation_tag = array();
+            if(!empty($rel))
+            {
+                foreach($rel as $value)
+                {
+                    $id .= $value->tag_id.',';
+                }
+                $id = rtrim($id,',');
+                $relation_tag = Question::model()->with(array('tag_relation'=>array(
+                    'on'=>'r.question_id=q.id',
+                    'alias'=>'r',
+                    'condition'=>"r.tag_id in ($id)",
+                )))->findAll(array('alias'=>'q','order'=>'q.id DESC','limit'=>30));
+            }
+            if(isset($_POST['Answer']))
+            {
+                //添加评论
+                $answer->attributes = $_POST['Answer'];
+                $answer->user_id = Yii::app()->user->id;
+                $answer->date = date('Y-m-d H:i:s');
+                $answer->question_id = $model->id;
+                if($answer->save())
+                {
+                    $this->redirect(array('/question/view','id'=>$model->id));
+                }
+            }
+            $this->render('view',array(
+                'model'=>$model,
+                'answer'=>$answer,
+                'answerData'=>$answerData,
+                'relation_tag'=>$relation_tag
+            ));
+        }
+
         /**
          * Creates a new model.
          * If creation is successful, the browser will be redirected to the 'view' page.

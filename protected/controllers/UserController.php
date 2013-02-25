@@ -76,7 +76,7 @@ class UserController extends Controller
                 Yii::app()->user->login($_identity,$duration);
                 $this->redirect(array('/site/index'));
             } else {
-                $error = '电子邮件或密码错误';
+                $error = 'error';
             }
         }
         $this->render('login',array('user'=>$user,'error'=>$error));
@@ -86,6 +86,7 @@ class UserController extends Controller
      */
     public function actionReg()
     {
+        return false;
         $user = new User();
         $this->performAjaxValidation($user);
         if(isset($_POST['User']))

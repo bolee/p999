@@ -27,7 +27,7 @@
         {
             return array(
                 array('allow',  // allow all users to perform 'index' and 'view' actions
-                    'actions'=>array('index','view','tag','view1'),
+                    'actions'=>array('index','view','tag'),
                     'users'=>array('*'),
                 ),
                 array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -44,8 +44,11 @@
             );
         }
 
-      
-      public function actionView($id)
+        /**
+         * Displays a particular model.
+         * @param integer $id the ID of the model to be displayed
+         */
+        public function actionView($id)
         {
             $model=Question::model()->with(array('supply','user'))->findByPk($id);
             if(empty($model))
@@ -55,9 +58,9 @@
             $answer=new Answer();
             $answerData = Answer::model()->with(array('supply','user'))->findAllByAttributes(array('question_id'=>$model->id));
             //reltaion tag
-            $rel = TagRelation::model()->findAllByAttributes(array('question_id'=>$model->id),array('limit'=>30,'order'=>'tag_id desc'));
+            $rel = TagRelation::model()->findAllByAttributes(array('question_id'=>$model->id));
             $id = null;
-            $relation_tag = array();
+            $relation_tag = null;
             if(!empty($rel))
             {
                 foreach($rel as $value)
@@ -65,14 +68,18 @@
                     $id .= $value->tag_id.',';
                 }
                 $id = rtrim($id,',');
-                $temp = TagRelation::model()->findAll("tag_id in ($id) limit 30");
+
+
+                $rel = TagRelation::model()->findAll(array('condition'=>"tag_id in ($id)",'order'=>'question_id desc','limit'=>30));
                 $id = null;
-                foreach($temp as $v)
+                foreach($rel as $value)
                 {
-                    $id .= $v->question_id.',';
+                    $id .= $value->question_id.',';
                 }
                 $id = rtrim($id,',');
-                $relation_tag = Question::model()->findAll("id in ($id)");
+
+
+                $relation_tag = Question::model()->findAll(array('condition'=>'id in ('.$id.')'));
             }
             if(isset($_POST['Answer']))
             {
@@ -93,8 +100,7 @@
                 'relation_tag'=>$relation_tag
             ));
         }
-      
-      
+
         /**
          * Creates a new model.
          * If creation is successful, the browser will be redirected to the 'view' page.
@@ -198,36 +204,22 @@
         public function actionTag($tag)
         {
             $name = Tag::model()->findByAttributes(array('name'=>$tag));
-            $page = isset($_GET['Question_page']) ? ($_GET['Question_page']-1)*50 : 0;
-            $question_id = TagRelation::model()->findAllByAttributes(array('tag_id'=>$name->id),array('limit'=>50,'order'=>'question_id desc','offset'=>$page));
-            $count = TagRelation::model()->count('tag_id = :tag_id',array('tag_id'=>$name->id));
-            $id = null;
-            foreach($question_id as $v)
-            {
-                $id .= $v->question_id.',';
-            }
-            $id = rtrim($id,',');
-            $questionData = Question::model()->findAll("id in ($id)");
-
-            /*$question = new CActiveDataProvider('Question',array(
+            $question = new CActiveDataProvider('Question',array(
                 'criteria'=>array(
                     'order'=>'q.id DESC',
                     'alias'=>'q',
-                    'condition'=>"q.id in ( select question_id from tag_relation where tag_id = {$name->id})",
+                    'condition'=>"r.tag_id = {$name->id}",
+                    'with'=>array(
+                        'rel'=>array(
+                            'alias'=>'r',
+                            'joinType'=>'left join'
+                        )
+                    )
                 ),
                 'pagination'=>array(
                     'pageSize'=>50,
                 ),
-            ));*/
-            $question = new CActiveDataProvider('Question',array(
-                'pagination'=>array(
-                    'pageSize'=>50,
-                    'itemCount'=>$count,
-                ),
-                'data'=>$questionData,
-                'totalItemCount'=>$count
             ));
-
             $this->render('tag',array('question'=>$question,'tag'=>$tag));
         }
 
