@@ -64,7 +64,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=iq',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => 'l1356436461)',
+			'password' => '',
 			'charset' => 'utf8',
             'enableProfiling'=>true,
             //'enableParamLogging'=>true,//TODO 生成环境关闭
