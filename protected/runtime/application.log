@@ -1768,3 +1768,49 @@ Stack trace:
 REQUEST_URI=/p999/user/login
 HTTP_REFERER=http://127.0.0.1/p999/question/644548
 ---
+2013/04/18 16:17:13 [error] [exception.CDbException] exception 'CDbException' with message 'No counter columns are being updated for table "question".' in D:\wamp\www\p999\framework\db\schema\CDbCommandBuilder.php:318
+Stack trace:
+#0 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(1721): CDbCommandBuilder->createUpdateCounterCommand(Object(CMysqlTableSchema), Array, Object(CDbCriteria))
+#1 D:\wamp\www\p999\protected\controllers\QuestionController.php(89): CActiveRecord->updateCounters(Array, 'id = 644548')
+#2 [internal function]: QuestionController->actionView('644548')
+#3 D:\wamp\www\p999\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#4 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(QuestionController), Object(ReflectionMethod), Array)
+#5 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('view')
+#14 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/view')
+#15 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\wamp\www\p999\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/p999/question/644548
+HTTP_REFERER=http://127.0.0.1/p999/
+---
+2013/04/18 16:18:21 [error] [exception.CDbException] exception 'CDbException' with message 'No counter columns are being updated for table "question".' in D:\wamp\www\p999\framework\db\schema\CDbCommandBuilder.php:318
+Stack trace:
+#0 D:\wamp\www\p999\framework\db\ar\CActiveRecord.php(1721): CDbCommandBuilder->createUpdateCounterCommand(Object(CMysqlTableSchema), Array, Object(CDbCriteria))
+#1 D:\wamp\www\p999\protected\controllers\QuestionController.php(89): CActiveRecord->updateCounters(Array, 'id = 644548')
+#2 [internal function]: QuestionController->actionView('644548')
+#3 D:\wamp\www\p999\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#4 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(QuestionController), Object(ReflectionMethod), Array)
+#5 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('view')
+#14 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/view')
+#15 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\wamp\www\p999\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/p999/question/644548
+HTTP_REFERER=http://127.0.0.1/p999/
+---

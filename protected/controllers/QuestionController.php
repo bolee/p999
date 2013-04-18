@@ -86,6 +86,7 @@
                     $this->redirect(array('/question/view','id'=>$model->id));
                 }
             }
+            Question::model()->updateCounters(array('click_num'=>1),'id = '.$model->id);
             $this->render('view',array(
                 'model'=>$model,
                 'answer'=>$answer,
