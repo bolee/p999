@@ -19,7 +19,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a href="<?php echo Yii::app()->baseUrl ?>" class="brand">home</a>
+            <a href="<?php echo Yii::app()->homeUrl ?>" class="brand">home</a>
             <div class="nav-collapse collapse" id="main-menu">
                 <ul class="nav" id="main-menu-left">
                     <!--<li><a onclick="pageTracker._link(this.href); return false;" href="http://news.bootswatch.com">Questions</a></li>
