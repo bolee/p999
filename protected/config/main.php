@@ -11,7 +11,6 @@ return array(
 	// preloading 'log' component
 	'preload'=>array(
         'log',
-        'bootstrap'
     ),
 
 	// autoloading model and component classes
@@ -40,9 +39,6 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-        'bootstrap'=>array(
-            'class'=>'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
-        ),
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
 			'urlFormat'=>'path',
@@ -61,10 +57,10 @@ return array(
         */
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=iq',
+			'connectionString' => 'mysql:host=192.168.3.150;dbname=iq',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'root',
 			'charset' => 'utf8',
             'enableProfiling'=>true,
             //'enableParamLogging'=>true,//TODO 生成环境关闭

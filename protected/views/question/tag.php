@@ -4,7 +4,7 @@ $this->pageTitle = $tag.' - '. Yii::app()->name;
 <!--左边-->
 <div class="left">
     <?php
-    $this->widget('bootstrap.widgets.TbListView', array(
+    $this->widget('zii.widgets.CListView', array(
         'dataProvider'=>$question,
         'itemView'=>'_index',   // refers to the partial view named '_post'
         'template'=>'{items}<hr class="index_hr" style="margin-bottom: 0px;"/>{pager}'

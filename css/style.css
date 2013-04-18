@@ -1,0 +1,130 @@
+.top-question{
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.top-question .left{
+    line-height: 30px;
+    font-weight: 900;
+    float: left;
+}
+.question-list {
+    min-height: 55px;
+    margin-top: 14px;
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 15px;
+    overflow: auto;
+}
+.question-list .votes,.answers,.view,.summary{
+    float: left;
+    margin-left: 8px;
+}
+.question-list .votes,.answers,.view .counts{
+    text-align: center;
+    font-size: 20px;
+}
+.question-list .votes div{
+    color: #555555;
+}
+.question-list .answers div{
+    color: #9A446C;
+}
+.question-list .view div{
+    color: #999999;
+}
+.question-list .summary{
+    text-align: left;
+    margin-left: 5px;
+    width: 520px;
+}
+.question-list .summary h3{
+    line-height: 21px;
+    font-size: 17px;
+    margin-top: 0px;
+    display: block;
+}
+.question-list .summary .tag a{
+    height: 22px;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    background-color: #E0EAF1;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #6B6DA6;
+}
+.content-list{
+    overflow: auto;
+}
+.content-list .left,.right{
+    float: left;
+}
+.content-list .right{
+    width: 660px;
+}
+
+.content-span9{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.content-list .left{
+    float: left;
+    width: 37px;
+}
+.content-list .left .emblem{
+    height: 18px;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+.content-list .left .e_1{
+    background: url("../img/sprites.png") no-repeat 0px -265px;
+    cursor: pointer;
+}
+.content-list .left .e_2{
+    text-align: center;
+    width: 40px;
+    font-size: 31px;
+    font-weight: 600;
+    height: 19px;
+    margin-top: 11px;
+}
+.content-list .left .e_3{
+    background: url("../img/sprites.png") no-repeat 0px -300px;
+    cursor: pointer;
+}
+.content-list .left .e_4{
+    cursor: pointer;
+    height: 28px;
+    background: url("../img/sprites.png") no-repeat 4px -150px;
+}
+.content-list .post-supply{
+    border-bottom: dotted 1px #aaa;
+}
+.content-list .post-supply div{
+    min-height: 27px;
+    border-top: dotted 1px #aaa;
+    overflow: auto;
+    padding: 5px;
+}
+
+.answer-center{
+    margin-top: 40px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.answer-center .answer_num{
+    float: left;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 0px;
+}
+.answer-list{
+    border-top: 1px solid #cccccc;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.question-related li{
+    margin-bottom: 10px;
+}

@@ -1,145 +1,118 @@
-<?php
-$this->breadcrumbs=array(
-	'Questions'=>array('index'),
-	$model->title,
-);
-$this->pageTitle = $model->title .' - '. Yii::app()->name;
-?>
-<!--title-->
-<h1><?php echo $model->title; ?></h1>
-<!--left-->
-<div class="left">
-    <!--content left-->
-    <div class="post-question span10">
-        <div class="post-cell" style="width:38px;height:10px;">
-            <!-- <div class="post-cell-useful">
-                <span><?php echo $model->useful; ?></span>
-                praise
-            </div>
-            <div class="post-cell-nouse" title="<?php echo $model->nouse; ?>">
-                Step
-            </div>
-            <div class="post-cell-supply" title="Supply" id="question-<?php echo $model->id; ?>">
-                Supply
-            </div>-->
+<div class="top-question">
+    <div class="left">
+        <?php echo $model->title ?>
+    </div>
+</div>
+<div class="span9 content-span9">
+    <div class="content-list">
+        <div class="left" id="q-<?php echo $model->id ?>">
+            <div class="emblem e_1"></div>
+            <div class="emblem e_2"><?php echo $model->useful ?></div>
+            <div class="emblem e_3"></div>
+            <div class="emblem e_4"></div>
         </div>
-        <div class="post-main">
+        <div class="right">
+            <!-- question -->
+            <div class="post-text" itemprop="description">
+                <?php echo $model->content ?>
+            </div>
             <div class="post-author">
-                <span><a href="<?php echo Yii::app()->createUrl('/user/view',array('display'=>$model->user->display)) ?>"> <?php echo $model->user->display; ?></a> publish <?php echo $model->date; ?></span>
+                <a href="<?php echo Yii::app()->createUrl('/user/view',array('display'=>$model->user->display)) ?>"> <?php echo $model->user->display; ?></a>
+                <?php echo $model->date; ?>
             </div>
-            <div class="well">
-            <div style="width:300px;height:250px;float: left;">
- <!-- Begin BidVertiser code -->
-<SCRIPT LANGUAGE="JavaScript1.1" SRC="http://bdv.bidvertiser.com/BidVertiser.dbm?pid=508017&bid=1286488" type="text/javascript"></SCRIPT>
-<noscript><a href="http://www.bidvertiser.com/bdv/BidVertiser/bdv_xml_feed.dbm">xml feed</a></noscript>
-<!-- End BidVertiser code --> 
-                  </div>
-                <?php echo $model->content;?>
-                <div class="tag">
-                    <?php
-                    if(!empty($model->tags))
-                    {
-                        foreach(explode(',',$model->tags) as $value)
-                        {
-                            ?>
-                            <a class="label" href="<?php echo Yii::app()->createUrl('/question/tag',array('tag'=>$value)) ?>"><?php echo $value ?></a>
-                            <?php
-                        }
-                    }
-                    ?>
-                </div>
-            </div>
-            <ul class="post-supply-ul">
+            <div class="post-supply">
                 <?php
                 foreach($model->supply as $svalue)
                 {
                     ?>
-                    <li>
-                        &nbsp;
-                        <?php  echo $svalue->content ?>
-                        &nbsp;  <a href="<?php echo Yii::app()->createUrl('/user/view',array('display'=>$svalue->user->display)) ?>"><?php echo $svalue->user->display ?></a>
+                    <div>
+                    <span><?php  echo $svalue->content ?></span>
+                    <span> - </span>
+                    <span>
+                        <a href="<?php echo Yii::app()->createUrl('/user/view',array('display'=>$svalue->user->display)) ?>"><?php echo $svalue->user->display ?></a>
                         <?php echo $svalue->date ?>
-                    </li>
-                    <?php
+                    </span>
+                    </div>
+                <?php
                 }
                 ?>
-            </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <!--  answer -->
+    <div class="answer-center">
+        <div class="answer_num">
+            <?php echo $model->answer_num ?> Answers
         </div>
     </div>
 
-    <div class="post-comment span10">
-        <?php foreach($answerData as $value) { ?>
-            <div class="post-cell"  style="width:38px;height:10px;">
-                <!--<div class="post-cell-useful">
-                    <span><?php echo $model->useful; ?></span>
-                    Praise
-                </div>
-                <div class="post-cell-nouse" title="<?php echo $model->nouse; ?>">
-                    Step
-                </div>
-                <div class="post-cell-supply" title="Supply" id="comment-<?php echo $value->id; ?>">
-                    Supply
-                </div>-->
+    <!-- answer list -->
+    <?php foreach($answerData as $value) { ?>
+        <div class="content-list answer-list">
+            <div class="left" id="a-<?php echo $value->id ?>">
+                <div class="emblem e_1"></div>
+                <div class="emblem e_2"><?php echo $value->useful ?></div>
+                <div class="emblem e_3"></div>
+                <div class="emblem e_4"></div>
             </div>
-            <div class="post-main">
+            <div class="right">
+                <!-- question -->
+                <div class="post-text" itemprop="description">
+                    <?php echo $value->content ?>
+                </div>
                 <div class="post-author">
-                    <span><a href="<?php echo Yii::app()->createUrl('/user/view',array('display'=>$value->user->display)) ?>"> <?php echo $value->user->display; ?></a> publish <?php echo $value->date; ?></span>
+                    <a href="<?php echo Yii::app()->createUrl('/user/view',array('display'=>$value->user->display)) ?>"> <?php echo $value->user->display; ?></a>
+                    <?php echo $value->date; ?>
                 </div>
-                <div class="well">
-                    <?php
-                        echo $value->content;
-                    ?>
+                <div class="post-supply">
+                    <?php foreach($value->supply as $svalue) { ?>
+                        <div>
+                            <span><?php echo $svalue->content ?></span>
+                            <span> - </span>
+                            <span><a href="<?php echo Yii::app()->createUrl('/user/'.$value->user->display) ?>"><?php echo $value->user->display ?></a> <?php echo $value->date ?></span>
+                        </div>
+                    <?php } ?>
                 </div>
-                <ul class="post-supply-ul">
-                    <?php
-                        foreach($value->supply as $svalue)
-                        {
-                    ?>
-                            <li>
-                                <?php  echo $svalue->content ?>
-                                &nbsp;<a href="<?php echo Yii::app()->createUrl('/user/'.$value->user->display) ?>"><?php echo $value->user->display ?></a> :
-                                <?php echo $value->date ?>
-                            </li>
-                    <?php
-                        }
-                    ?>
-                </ul>
+
             </div>
-            <hr class="post-comment-clear" />
-        <?php } ?>
-    </div>
-    <?php if(isset(Yii::app()->user->id)) { ?>
-        <?php
-        $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
-            'id'=>'question-answer',
-            'enableAjaxValidation'=>false,
-            'htmlOptions'=>array(
-                'class'=>'span9',
-            )
-        )); ?>
-        <?php echo $form->errorSummary(array($answer)); ?>
-        <?php echo $form->labelEx($answer,'content') ?>
-        <?php echo $form->textArea($answer,'content',array('id'=>'editor','style'=>'width:700px')) ?>
-        <div class="post-submit">
-            <?php echo CHtml::submitButton('Post Answer'); ?>
+
         </div>
 
-        <?php $this->endWidget(); ?>
     <?php } ?>
-</div>
-<!--left end-->
-<!--right start-->
-<div class="right span2">
-        <ul class="nav nav-pills nav-stacked">
-            <li class="active"><a href="">Related</a> </li>
-            <?php
-                foreach($relation_tag as $value)
-                {
-                    ?>
-                        <li><a href="<?php echo Yii::app()->createUrl('/question/view',array('id'=>$value->id)) ?>"><?php echo $value->title ?></a> </li>
-                    <?php
-                }
+
+
+
+ </div>
+<div class="span3">
+    <div class="question-tag">
+        <?php
+        if(!empty($model->tags))
+        {
             ?>
+            <p>tagged</p>
+            <?php
+            foreach(explode(',',$model->tags) as $value)
+            {
+                ?>
+                <a class="label" href="<?php echo Yii::app()->createUrl('/question/tag',array('tag'=>$value)) ?>"><?php echo $value ?></a>
+                <br />
+            <?php
+            }
+        }
+        ?>
+    </div>
+    <div class="question-related">
+        <ul>
+        <?php
+        foreach($relation_tag as $value)
+        {
+            ?>
+            <li><a href="<?php echo Yii::app()->createUrl('/question/view',array('id'=>$value->id)) ?>"><?php echo $value->title ?></a> </li>
+        <?php
+        }
+        ?>
         </ul>
+    </div>
 </div>
-<!--right end-->

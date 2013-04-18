@@ -29,8 +29,8 @@ $this->pageTitle = $model->title .' - '. Yii::app()->name;
             </div>
             <div class="well">
             <div style="width:300px;height:250px;float: left;">
-              <!-- Begin BidVertiser code -->
-<SCRIPT LANGUAGE="JavaScript1.1" SRC="http://bdv.bidvertiser.com/BidVertiser.dbm?pid=508017&bid=1272815" type="text/javascript"></SCRIPT>
+ <!-- Begin BidVertiser code -->
+<SCRIPT LANGUAGE="JavaScript1.1" SRC="http://bdv.bidvertiser.com/BidVertiser.dbm?pid=508017&bid=1286488" type="text/javascript"></SCRIPT>
 <noscript><a href="http://www.bidvertiser.com/bdv/BidVertiser/bdv_xml_feed.dbm">xml feed</a></noscript>
 <!-- End BidVertiser code --> 
                   </div>

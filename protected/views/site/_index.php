@@ -1,24 +1,33 @@
-<hr class="index_hr" />
-<div class="index_list">
-    <div class="status">
-        <div class="status_answer" title="answer num">&nbsp;&nbsp; <?php echo $data->answer_num; ?></div>
-        <div class="status_click" title="click num">&nbsp;&nbsp; <?php echo $data->click_num; ?></div>
+<div class="question-list">
+    <div>
+        <div class="votes">
+            <div class="counts"><?php echo $data->useful ?></div>
+            <div>votes</div>
+        </div>
+        <div class="answers">
+            <div class="counts"><?php echo $data->answer_num ?></div>
+            <div>answers</div>
+        </div>
+        <div class="view">
+            <div class="counts"><?php echo $data->click_num ?></div>
+            <div>view</div>
+        </div>
     </div>
-    <div class="index_row">
-        <h2><a href="<?php echo Yii::app()->createUrl('/question/view',array('id'=>$data->id)) ?>"><?php echo $data->title; ?></a></h2>
-        <div class="meta">
+    <div class="summary">
+        <h3>
+            <a href="<?php echo Yii::app()->createUrl('/question/view',array('id'=>$data->id)) ?>" class="question-hyperlink" title="<?php echo $data->title; ?>"><?php echo $data->title; ?></a></h3>
+        <div class="tag">
             <?php
             if(!empty($data->tags))
             {
                 foreach(explode(',',$data->tags) as $value)
                 {
                     ?>
-                    <a class="label" href="<?php echo Yii::app()->createUrl('/question/tag',array('tag'=>$value)) ?>"><?php echo $value ?></a>
-                    <?php
+                    <a href="<?php echo Yii::app()->createUrl('/question/tag',array('tag'=>$value)) ?>"><?php echo $value ?></a>
+                <?php
                 }
             }
             ?>
-            <span><?php echo $data->date; ?></span>
         </div>
     </div>
 </div>

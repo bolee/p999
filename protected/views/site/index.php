@@ -1,15 +1,20 @@
-<!--左边-->
-<div class="left">
+
+<div class="span9 ">
+    <div class="top-question">
+        <div class="left">
+            Top Questions
+        </div>
+    </div>
+
     <?php
-    $this->widget('bootstrap.widgets.TbListView', array(
+    $this->widget('zii.widgets.CListView', array(
         'dataProvider'=>$question,
         'itemView'=>'_index',   // refers to the partial view named '_post'
         'template'=>'{items}<hr class="index_hr" style="margin-bottom: 0px;"/>{pager}'
     ));
     ?>
 </div>
-<!--左边结束-->
-<!--右边开始-->
-<div class="right span2">
+<div class="span3">
+    Level 2
 </div>
-<!--右边结束-->
+</div>
