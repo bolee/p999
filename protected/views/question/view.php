@@ -1,6 +1,6 @@
 <div class="top-question">
     <div class="left">
-        <?php echo $model->title ?>
+        <?php echo $this->pageTitle=$model->title ?>
     </div>
 </div>
 <div class="span9 content-span9">
