@@ -1814,3 +1814,30 @@ Stack trace:
 REQUEST_URI=/p999/question/644548
 HTTP_REFERER=http://127.0.0.1/p999/
 ---
+2013/04/19 13:42:59 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "clientScript".' in D:\wamp\www\p999\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\wamp\www\p999\protected\views\layouts\column1.php(8): CComponent->__call('clientScript', Array)
+#1 D:\wamp\www\p999\protected\views\layouts\column1.php(8): CWebApplication->clientScript()
+#2 D:\wamp\www\p999\framework\web\CBaseController.php(127): require('D:\wamp\www\p99...')
+#3 D:\wamp\www\p999\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\wamp\www\p99...', Array, true)
+#4 D:\wamp\www\p999\framework\web\CController.php(785): CBaseController->renderFile('D:\wamp\www\p99...', Array, true)
+#5 D:\wamp\www\p999\protected\controllers\QuestionController.php(95): CController->render('view', Array)
+#6 [internal function]: QuestionController->actionView('644548')
+#7 D:\wamp\www\p999\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#8 D:\wamp\www\p999\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(QuestionController), Object(ReflectionMethod), Array)
+#9 D:\wamp\www\p999\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\wamp\www\p999\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\wamp\www\p999\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\wamp\www\p999\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\wamp\www\p999\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\wamp\www\p999\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\wamp\www\p999\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\wamp\www\p999\framework\web\CWebApplication.php(283): CController->run('view')
+#18 D:\wamp\www\p999\framework\web\CWebApplication.php(142): CWebApplication->runController('question/view')
+#19 D:\wamp\www\p999\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\wamp\www\p999\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/p999/question/644548
+HTTP_REFERER=http://127.0.0.1/p999/
+---

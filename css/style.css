@@ -128,3 +128,10 @@
 .question-related li{
     margin-bottom: 10px;
 }
+.post-title{
+    font-size: 20px;
+    display: block;
+    height: 20px;
+    margin: 0px;
+    color: #000000;
+}
